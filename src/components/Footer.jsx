@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className="footer__about">
         <p>Come join us</p>
-        <span className="email">info@kryptome.com</span>
+        <span className="email">mukeshms40003@gmail.com</span>
       </div>
     </div>
   );
