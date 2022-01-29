@@ -61,28 +61,28 @@ Deploye smart contract is the first priority then go for the client branch.
 
 # Header Page
 
-![plot](./src/assets/screenshots/header.png)
+![plot](./src/assets/screenshots/header.PNG)
 
 # Krypto Services
 
-![plot](./src/assets/screenshots/send_krypto_services.png)
+![plot](./src/assets/screenshots/send_krypto_services.PNG)
 
 # Ethereum Card
 
-![plot](./src/assets/screenshots/ethereum.png)
+![plot](./src/assets/screenshots/ethereum.PNG)
 
 # Send ethereum form
 
-![plot](./src/assets/screenshots/send_ethereum_form.png)
+![plot](./src/assets/screenshots/send_ethereum_form.PNG)
 
 # Services List
 
-![plot](./src/assets/screenshots/services.png)
+![plot](./src/assets/screenshots/services.PNG)
 
 # Latest Transactions
 
-![plot](./src/assets/screenshots/latest_transactions.png)
+![plot](./src/assets/screenshots/latest_transactions.PNG)
 
 # Footer
 
-![plot](./src/assets/screenshots/footer.png)
+![plot](./src/assets/screenshots/footer.PNG)
