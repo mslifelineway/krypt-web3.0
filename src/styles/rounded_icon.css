@@ -1,0 +1,11 @@
+.rounded__icon {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.serviceCard .rounded__icon svg {
+    margin: 0 auto;
+}

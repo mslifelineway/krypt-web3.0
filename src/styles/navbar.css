@@ -1,0 +1,54 @@
+.navbar {
+  padding: 2rem 0;
+}
+.nav__logo {
+  color: #fff;
+}
+.nav__logo img {
+  margin-right: auto;
+}
+
+.nav__menus {
+  color: #fff;
+  list-style: none;
+}
+.nav__menus .nav__menu-item a {
+  padding: 0.5rem 1rem;
+}
+
+.mobile__menus {
+  display: none;
+}
+.mobile__menus .react__icon {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 1600;
+}
+.mobile__menus .nav__menus {
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(50 29 61);
+  padding: 3rem 6rem 2rem 2rem;
+  padding: 3rem 0;
+  box-shadow: 10px 10px 30px rgb(0 0 0 / 80%);
+}
+.mobile__menus .nav__menus .nav__menu-item a {
+  padding: 0.5rem 6rem;
+}
+
+.mobile__menus .text__iconButton {
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop__menus {
+    display: none;
+  }
+  .mobile__menus {
+    display: block;
+  }
+}

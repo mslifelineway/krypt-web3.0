@@ -1,0 +1,20 @@
+.transactions {
+    color: #fff;
+}
+.transactions h4 {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid #eee;
+    width:fit-content;
+}
+.transactions h4.no__transactions {
+    border: none;
+}
+
+.transactions .transactions__details {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}

@@ -1,0 +1,24 @@
+.serviceCard {
+    background: #181826;
+    backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.serviceCard .service__card-icon {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.serviceCard .service__card-icon svg {
+    margin: 0 auto;
+}
+
+.service__card-content h4 {
+    margin-bottom: 5px;
+}

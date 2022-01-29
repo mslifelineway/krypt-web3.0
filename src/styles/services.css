@@ -1,0 +1,15 @@
+.services .left {
+    color: #fff;
+    padding: 40px;
+    flex: 1;
+}
+.services .left h2 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+.services .right  {
+    width: 47%
+}
+.services .right .service__cardBox:not(:last-child) {
+    margin-bottom: 20px;
+}

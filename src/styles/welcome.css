@@ -1,0 +1,153 @@
+    .welcome {
+        color: #fff;
+        margin: 0 auto;
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    
+    .welcome .w__left,
+    .welcome .w__right {
+        width: 100%;
+        padding: 2rem;
+    }
+    .welcome .w__left {
+        padding-left: 0;
+    }
+    .welcome .w__right {
+        padding-right: 0;
+    }
+    .w__left h2.heading {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    
+    .w__left p.subtitle {
+        color: #f3f3f3;
+        margin-bottom: 20px;
+    }
+    
+    .w_grid__menus {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        color: #fff;
+        margin-top: 3rem;
+    }
+    
+    .w_grid__menus .w__item {
+        border: 1px solid #fff;
+        padding: 1.2rem 2rem;
+        text-transform: capitalize;
+        white-space: nowrap;
+    }
+    
+    .w_grid__menus .w__item:nth-child(1) {
+        border-top-left-radius: 10px;
+    }
+    
+    .w_grid__menus .w__item:nth-child(3) {
+        border-top-right-radius: 10px;
+    }
+    
+    .w_grid__menus .w__item:nth-child(4) {
+        border-bottom-left-radius: 10px;
+    }
+    
+    .w_grid__menus .w__item:nth-child(6) {
+        border-bottom-right-radius: 10px;
+    }
+    
+    .w__right .ethereum__card-box {
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .w__right .ethereum__card {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+    }
+   
+    .ethereum__card-box .ethereum__rounded-icon {
+        border: 1px solid #fff;
+        padding: 0.5rem;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+    
+    .ethereum__card-box .ethereum__rounded-icon svg {
+        margin: 0 auto
+    }
+    
+    .ethereum__card-box .info__icon {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    
+    .ethereum__card-box .card__title {
+        position: absolute;
+        left: 15px;
+        bottom: 15px;
+        font-weight: 700;
+    }
+    .ethereum__card-box .card__title.address {
+        bottom: 40px
+    }
+    .w__right .transaction__form {
+        background: rgba(132, 148, 200, 0.3);
+        margin-top: 20px;
+        padding: 20px 40px;
+        border-radius: 10px;
+    }
+    
+    .transaction__form .input__field {
+        background: rgba(132, 148, 200, 0.2);
+        border: none;
+        outline: none;
+        width: 100%;
+        margin: 10px 0px;
+        padding: 1rem 2rem;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .transaction__form .input__field::placeholder {
+        color: rgb(199, 199, 199);
+    }
+    
+    .transaction__form input.input__field::-webkit-outer-spin-button,
+    .transaction__form input.input__field::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    
+    .transaction__form input.input__field[type="number"] {
+        -moz-appearance: textfield;
+    }
+    
+    .transaction__form .divider {
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .transaction__form .btn__send {
+        background: none;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 25px;
+        width: 100%;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        color: #f1f1f1;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+

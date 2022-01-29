@@ -1,0 +1,24 @@
+.footer {
+  color: #fff;
+  margin-top: 3rem;
+  text-align: center;
+}
+.footer .left {
+  padding: 20px;
+  padding-top: 0;
+  width: 30%;
+}
+.footer .right {
+  width: 100%;
+}
+.footer__menu {
+  width: 100%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px
+}
+.footer__about {
+  margin-top: 12px;
+  text-align: center;
+}

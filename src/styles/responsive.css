@@ -1,0 +1,129 @@
+@media (min-width: 1401px) and (max-width: 1824px) {
+  .homeContent__wrapper {
+    width: 70% !important;
+  }
+}
+@media (min-width: 1225px) and (max-width: 1400px) {
+  .homeContent__wrapper {
+    width: 80% !important;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1224px) {
+  .homeContent__wrapper {
+    width: 80% !important;
+  }
+}
+@media (min-width: 993px) and (max-width: 1024px) {
+  .homeContent__wrapper {
+    width: 85% !important;
+  }
+  .welcome .w__left {
+    width: 50% !important;
+    padding: 1rem !important;
+  }
+  .w__left h2.heading {
+    font-size: 2rem !important;
+  }
+}
+/* all screen below this size */
+@media screen and (max-width: 992px) {
+  .w_grid__menus {
+    grid-template-columns: auto auto !important;
+  }
+  .w_grid__menus .w__item:nth-child(3),
+  .w_grid__menus .w__item:nth-child(4) {
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+  .w_grid__menus .w__item:nth-child(2) {
+    border-top-right-radius: 10px !important;
+  }
+  .w_grid__menus .w__item:nth-child(5) {
+    border-bottom-left-radius: 10px !important;
+  }
+  .transactions__details {
+    grid-template-columns: auto auto auto !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .homeContent__wrapper {
+    width: 90% !important;
+  }
+  .welcome .w__left {
+    width: 90% !important;
+    padding: 1rem !important;
+  }
+  .w__left h2.heading {
+    font-size: 2rem !important;
+  }
+  .services .left h2 {
+    font-size: 2rem !important;
+  }
+}
+
+/* all screen below this size */
+@media screen and (max-width: 768px) {
+  .welcome {
+    flex-direction: column !important;
+    padding-bottom: 0rem !important;
+  }
+  .welcome .w__left {
+    width: 100% !important;
+    padding: 2rem 0rem !important;
+  }
+  .welcome .w__right {
+    padding: 0rem !important;
+  }
+  .w__left h2.heading {
+    font-size: 2rem !important;
+  }
+  .w__right .ethereum__card-box {
+    width: 90% !important;
+  }
+
+  /* services */
+  .services {
+    flex-direction: column !important;
+  }
+  .services .left h2 {
+    font-size: 2rem !important;
+  }
+  .services .right {
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  /* transactions css*/
+  .transactions__details {
+    grid-template-columns: auto auto !important;
+  }
+  /* footer css */
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .footer__wrapper .left {
+    width: 100% !important;
+  }
+}
+@media (min-width: 640px) and (max-width: 768px) {
+  .homeContent__wrapper {
+    width: 70% !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .homeContent__wrapper {
+    width: 80% !important;
+  }
+  /* transactions css*/
+  .transactions__details {
+    grid-template-columns: auto !important;
+  }
+  .footer__menu {
+    margin: 20px 0 !important;
+    grid-template-columns: auto auto !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .homeContent__wrapper {
+    width: 90% !important;
+  }
+}
